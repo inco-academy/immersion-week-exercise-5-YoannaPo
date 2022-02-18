@@ -12,5 +12,7 @@ console.log(squareRed);
 
 // squareRed.addEventListener("mouseenter", () => console.log("Mouse enter"));
 // squareRed.addEventListener("mouseleave", () => console.log("Mouse leave"));
-squareRed.addEventListener("mouseenter", () => squareRed.style.backgroundColor = "red");
+//squareRed.addEventListener("mouseenter", () => squareRed.style.backgroundColor = "red");
+squareRed.addEventListener("mousemove", () => squareRed.style.backgroundColor = "red");
+//squareRed.addEventListener("mouseup", () => squareRed.style.backgroundColor = "red");
 squareRed.addEventListener("mouseleave", () => alert("Mouse leave"));
